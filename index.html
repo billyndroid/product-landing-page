@@ -5,12 +5,11 @@
         <meta charset="UTF-8"/>
         <link href="styles/style.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Recursive:wght@300&amp;family=STIX+Two+Text&amp;display=swap" rel="stylesheet">
-
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
         <main>
             <header id="header">
-            <div class="tchoozle-logo">
                 <img id="header-img"
                   src="assets/Untitled-2.png"
                   alt="tchoozle-logo"
@@ -19,22 +18,23 @@
 
 
             <nav id="nav-bar">
-                <button class="nav-link">
-                    <a href="#middle">Middle</a>
+
+                <button>
+                    <a href="#email" class="nav-link">Email</a>
                 </button>
+
+
                 <button class="nav-link">
-                    <a href="#lower">Lower</a>
-                </button>
-                <button class="nav-link">
-                    <a href="#bottom">Bottom</a>
+                    <a href="#form">Form</a>
                 </button>
                 <button class="nav-link">
                     <a href="#footer">Footer</a>
                 </button>
+               
                 
             </nav>
             </header>
-            <article>
+            <article class="nav-link" id="middle">
                 <h1>
                   
                 </h1>
@@ -53,13 +53,15 @@
                 <h1>
 
                 </h1>
-                <form id="form">
-                    <input id="email" type="email" required/>
+                <a name="email"></a>
+                <form id="form" action="https://www.freecodecamp.org/email-submit">
+                    <input id="email" type="email" placeholder="e.g johndoe@gmail.com" name="email" required/>
                     <input id="submit" type="submit" value="Submit Form"><br>
                 </form>
+                <a name="email">link</a>
             </section>
             <footer>
-                
+                <section id="form"></section>
             </footer>
         </main>
         <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"/>

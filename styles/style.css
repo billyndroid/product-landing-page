@@ -1,3 +1,31 @@
-#main {
-    display: flexbox;
+html {
+    background-color: rgb(176, 215, 253);
+    display: flex;
+    margin: auto;
+    padding: 5px;
+    border: gainsboro; border-radius: 10%;
+}
+#header {
+    background-color: dodgerblue;
+}
+#header-img {
+    display: flex;
+   box-shadow: gray;
+}
+#nav-bar {
+    background-color: gray;
+}
+
+@media all and (max-width: 500px){
+
+}
+#video {
+    display: flex;
+    background-color: rgba(30, 143, 255, 0.411);
+}
+#form {
+    background-color: gray;
+}
+footer {
+    background-color: rgb(25, 55, 85);
 }
